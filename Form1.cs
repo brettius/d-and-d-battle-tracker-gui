@@ -18,7 +18,7 @@ namespace DD_Battle_Tracker
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void addHealth_Click(object sender, EventArgs e)
         {
 
             int plusHealth;
@@ -37,7 +37,7 @@ namespace DD_Battle_Tracker
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        private void decreaseHealth_Click(object sender, EventArgs e)
         {
             int minusHealth;
 
